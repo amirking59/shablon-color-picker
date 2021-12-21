@@ -1,13 +1,8 @@
 <script setup>
-  // This starter template is using Vue 3 <script setup> SFCs
-  // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-  import HelloWorld from './components/HelloWorld.vue';
+  import {ColorPicker} from '../dist/shablon-color-picker.es';
 </script>
 
-<template>
-  <img class="mx-auto" alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
-</template>
+<template><color-picker></color-picker></template>
 
 <style>
   #app {
